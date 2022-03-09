@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>index</title>
+<meta charset="utf-8">
+<style>
+    body {
+
+        background-color:silver;
+margin: 0;
+        padding: 0;
+    }
+table{
+    border:solid 3px black;
+    border-collapse: collapse;
+    width:60%; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top:100Px;
+    height: 500px;
+}
+th,td{
+    border:outset 2px;
+}
+.h{background-color:rgb(248, 226, 192);}
+.css{background-color:rgb(8, 238, 8);}
+.csc205{background-color:rgb(109, 202, 214);}
+.meeting{background-color:rgb(100, 98, 98);}
+#image{
+    display:block;
+margin-left:auto;
+margin-right: auto;
+}
+#ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color:rgb(0,0,0);
+    width:100%;
+    padding: 20px;
+  margin: 0;
+}
+.li {
+    float:left;
+}
+.li a{
+    text-decoration: none;
+    display:block;
+    padding: 20px;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    border-radius:3px;
+    font-size:18px;
+}
+.li h1{
+    color:white;
+    margin-top: 0;
+   margin-bottom: 0;
+   padding-top:6px;
+   font-size: 36px;
+   font-family: 'Times New Roman', Times, serif;
+   padding-right: 60px;
+}
+.li a:hover{
+background-color:rgb(109, 3, 3);
+}
+.search {
+float:right;
+margin-right: 150px;
+margin-top:14px;
+}
+.search input[type="text"] {
+border:hidden;
+border-radius: 2px;
+padding: 9px;
+}
+.search button {
+    border:hidden;
+    padding: 9px;
+    border-radius: 2px;
+    font-family: impact;
+    background-color:silver;
+}
+</style>
+</head>
+<body>
+    <ul id="ul">
+<li class="li"><h1>Knowledge</h1></li>
+<li class="li"><Home href="https://www.wikipedia.org/" target="_blank">Home</a></li>
+<li class="li"><a href="https://en.wikipedia.org/wiki/Mathematics" target="_blank">Math</a></li>
+<li class="li"><a href="https://en.wikipedia.org/wiki/Physics" target="_blank">Physics</a></li>
+<li class="li"><a href="https://en.wikipedia.org/wiki/Chemistry" target="_blank">Chemistry</a></li>
+<li class="li"><a href="https://en.wikipedia.org/wiki/Branches_of_science" target="_blank">Other science</a></li>
+<form class="search">
+<input type="text" placeholder="Search">
+<button>search</button>
+</form>
+</ul>
+    <br>
+    <br>
+<table>
+<tr style="font-family:impact,Times New Roman;"><th style="padding: 15px;"></th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><tr>
+<tr><th class="time">1:00 PM</th><td rowspan="2" style="background-color:yellow"><a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML</a></td><td></td><td rowspan="2" class="h">HTML</td><td rowspan="8" class="h">HTML Hour <br>by Apps</td><td rowspan="2" class="h">HTML</td></tr>
+<tr><th class="time">3:00 PM</th><td rowspan="2" class="meeting">DeptMeeting</td></tr>
+<tr><th class="time">2:00 PM</th><td rowspan="3" class="css">CSS</td><td rowspan="3" class="css">CSS</td><td rowspan="3" class="css">CSS</td></tr>
+<tr><th class="time">3:00 PM</th><td></td></tr>
+<tr><th class="time">5:00 PM</th><td rowspan="3" class="meeting">EC Meeting</td></tr>
+<tr><th class="time">3:30 PM</th><td rowspan="3" class="csc205">CSC205</td><td rowspan="3" class="csc205">CSC205</td><td rowspan="3" class="csc205">CSC205</td></tr>
+<tr><th class="time">3:40 PM</th></tr>
+<tr><th class="time">4:00 PM</th><td></td></tr>
+</table>
+<br>
+<br>
+<br>
+<img src="einstein_vs_newton_by_astrocony_dblujpm-fullview.jpg" style="width:auto;height:auto" id="image" usemap="#map">
+<map name="map">
+<area shape="poly" coords="255,233,304,212,344,221,361,285,363,331,366,461,401,574,347,670,330,661,357,548,327,512,265,615,215,661,202,643,268,531,213,416,263,355,240,283,261,217" href="https://en.wikipedia.org/wiki/Isaac_Newton" target="_blank">
+<area shape="poly" coords="730,324,805,379,879,402,909,427,884,441,752,397,759,491,724,561,786,628,758,680,752,646,625,646,601,562,641,500,620,620,478,655,429,655,385,534,346,559,305,651,341,678,319,660,310,649,291,626,276,613,254,616,211,656,191,708,188,750,201,777,240,761,281,735,307,727,317" href="https://en.wikipedia.org/wiki/Albert_Einstein" target="_blank">
+<area shape="circle" coords="222,501,20" href="https://www.newscientist.com/article/2170052-newtons-apple-the-real-story/" target="_blank">
+<area shape="circle" coords="102,160,56" href="https://en.wikipedia.org/wiki/Planet" target="_blank">
+<area shape="circle" coords="855,110,80" href="https://en.wikipedia.org/wiki/Portal:Stars" target="_blank">
+<area shape="circle" coords="913,457,20" href="https://en.wikipedia.org/wiki/Sun" target="_blank">
+<area shape="circle" coords="686,259,90" href="https://en.wikipedia.org/wiki/Albert_Einstein" target="_blank">
+</map>
+</body>
+</html>
